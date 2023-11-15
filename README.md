@@ -15,17 +15,35 @@ El programa mismo verificara el largo de cada
 cadena al ser introducida, si no conduerda en largo
 se informará de ello al usuario para que la reintroduzca
 
-## uso
-
-tiene que ejecutar el archivo main.py
-el programa está diseñado para ser usado en una consola de comandos
+## como utilizar el programa
+una vez descargado el archivo debe abrir una terminal en el mismo directorio, luego tiene que ejecutar el archivo main.py
+el programa le pedira cargar su matriz de adn fila por fila
 ```
 py main.py
 ```
 
-## funcion
+## Como funciona? 
 
 a travez de comprension de listas y splices (recortes), la lista se separa en cadenas de 4 caracteres de diagonales, columnas y filas,
 una vez hecho se compara con las 4 incidencias de ADN
 usando un bucle simple
 
+## ejemplos de matrices de adn
+Caso mutante:
+```
+A T G C G A
+C A G T G C
+T T A T G T
+A G A A G G
+C C C C T A
+T C A C T G
+```
+caso no-mutante: 
+```
+T C	A C T G
+A T	G C G A
+C A	G T G C
+T T	A T T T
+A G	A C G G
+G C	G T C A
+```
